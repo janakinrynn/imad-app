@@ -8,7 +8,10 @@ body {
 .center {
     text-align: center;
 }
-
+.articleOne
+{
+    font-size: 100%;
+}
 .text-big {
     font-size: 300%;
 }
