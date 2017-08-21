@@ -3,10 +3,10 @@ console.log('Loaded!');
 //move the image madi
 
 var element = document.getElementById('image');
-var marginLeft = 0;
+
 function moveRight()
-{   marginLeft = marginLeft + 10;
-    element.style.marginLeft = marginLeft + 'px';
+{   marginleft = margin-left + 10;
+    element.style.marginleft = marginleft + 'px';
     
 }
 element.onClick = function() {    
