@@ -22,7 +22,7 @@ app.get('/articleOne', function (req, res) {
 });
 
 app.get('/articleTwo', function (req, res) {
-   res.send("Article Two is served here");
+   res.sendFile(path.join(__dirname, 'ui', 'articleTwo.html'));
 });
 app.get('/articleTHree', function (req, res) {
    res.send("Article Three is served here");
