@@ -11,7 +11,7 @@ function moveRight()
 }
 element.onClick = function()   {    
           var interval = setInterval(moveRight, 100);
-      };
+      }
     
     
     
