@@ -9,9 +9,9 @@ function moveRight()
     element.style.marginLeft = marginLeft + 'px';
     
 }
-element.onClick = function()   {    
-          var interval = setInterval(moveRight, 100);
-      }
+element.onClick = function() {    
+          var interval = setInterval(moveRight, 50);
+      };
     
     
     
