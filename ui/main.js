@@ -13,11 +13,11 @@ img.onclick = function() {
          img.style.marginLeft='100px';
          //var interval = setInterval(moveRight, 50);
       };
-    var counter = 0;
-var button = document.getElementbyId("counter");
+var counter = 0;
+var button = document.getElementById("counter");
 button.onclick = function(){
     counter = counter + 1;
-    var span = getElementbyId("count");
+    var span = getElementById("count");
     span.innerHTML = counter.toString();
 };
     
