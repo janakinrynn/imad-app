@@ -15,8 +15,8 @@ img.onclick = function() {
      };
       
 var counter = 0;
-window.onload = function(){
-var btn = document.getElementById("counter");};
+
+var btn = document.getElementById("counter");
 
 console.log('button');
 
